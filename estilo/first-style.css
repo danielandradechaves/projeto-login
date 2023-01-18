@@ -3,7 +3,7 @@
 /*
 PALETA DE CORES
     PRETO - #3B3C40
-    BRANCO - #F2F2F2
+    BRANCO - 
     BÉGE(ESCURO) - #BFA595
     BÉGE(CLARO) - #D9BDAD
     MARROM - #734E46
@@ -21,8 +21,8 @@ body, html{
 }
 
 main{
-    background-color: white;
-    width: 300px;
+    background-color: #F2F2F2;
+    width: 400px;
     height: 600px;
     border-radius: 20px;
     margin: auto;
@@ -30,18 +30,21 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 }
 
 #imagem{
     border-radius: 20px 20px 0px 0px;
-    background: url(../imagens/gato-mobile.jpg) no-repeat;
+    background: #734E46 url(../imagens/gato-mobile.jpg) no-repeat;
     height: 200px;
     background-size: cover;
-    overflow: hidden;
+    display: block;
+    
 }
 
 #formulario{
     padding: 1em;
+    display: block;
 }
 
 #formulario h1{
@@ -59,4 +62,5 @@ main{
     margin-top: .5em;
     padding: 5px;
     border-radius: 10px;
+
 }

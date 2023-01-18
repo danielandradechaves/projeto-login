@@ -8,3 +8,55 @@ PALETA DE CORES
     BÉGE(CLARO) - #D9BDAD
     MARROM - #734E46
 */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #734E46;
+}
+
+main{
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imagem{
+    border-radius: 20px 20px 0px 0px;
+    background: url(../imagens/gato-mobile.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#formulario{
+    padding: 1em;
+}
+
+#formulario h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+#formulario > p{
+    text-align: justify;
+}
+
+.campo{
+    background-color: #D9BDAD;
+    margin-top: .5em;
+    padding: 5px;
+    border-radius: 10px;
+}

@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <!--ÍCONES-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--ESTILOS-->
     <link rel="stylesheet" href="estilo/first-style.css">
-
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
@@ -20,13 +22,16 @@
             <P>Seja bem-vindo(a) novamente! Faça o Login para acessar sua conta</P>
             <form action="cadastro.php" method="post">
                 <div class="campo">
-                    <input type="email" name="email" id="Iemail">
-                    <label for="Iemail">email:</label>
+                    <span class="material-icons">login</span>
+                    <input type="email" name="email" id="Iemail" placeholder="E-mail" autocomplete="email" required maxlength="30">
+                    <label for="Iemail">E-mail</label>
                 </div>
                 <div class="campo">
-                    <input type="password" name="senha" id="Isenha">
-                    <label for="Isenha">senha:</label>
+                    <span class="material-icons">key</span>
+                    <input type="password" name="senha" id="Isenha" placeholder="Senha" required minlength="8" maxlength="20">
+                    <label for="Isenha">Senha</label>
                 </div>
+                <a href="#">esqueci minha senha <span class="material-icons">key_off</span> </a>
                 <div class="campo" id="botao">
                     <input type="submit" value="ENTRAR">
                 </div>

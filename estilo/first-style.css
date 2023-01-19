@@ -39,6 +39,11 @@ main{
     transition-timing-function: ease;
 }
 
+#formulario a {
+    text-decoration: none;
+    font-size: small;
+}
+
 #imagem{
     background: #734E46 url(../imagens/gato.jpg) no-repeat;
     height: 350px;
@@ -60,6 +65,7 @@ main{
 
 #formulario > p{
     text-align: justify;
+    font-size: 1em;
 }
 
 .campo{

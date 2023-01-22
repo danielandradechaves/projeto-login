@@ -9,6 +9,7 @@
 
     main{
         width: 730px;
+        height: 400px;
     }
 
     #imagem{
@@ -30,6 +31,7 @@
 
     main{
         width: 980px;
+        height: 500px;
     }
     #imagem{
         float: right;
